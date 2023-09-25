@@ -15,7 +15,7 @@ public class IFELSE {
      */
     public static void main(String[] args) {
         double nota1 = 7 ;
-        double nota2 = 100 ;
+        double nota2 = 10 ;
         double nota3 = 3 ;       
         double promedio ;
                 
