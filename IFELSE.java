@@ -15,8 +15,8 @@ public class IFELSE {
      */
     public static void main(String[] args) {
         double nota1 = 7 ;
-        double nota2 = 10 ;
-        double nota3 = 6 ;       
+        double nota2 = 100 ;
+        double nota3 = 3 ;       
         double promedio ;
                 
         promedio = (nota1 + nota2 + nota3) /3 ;
@@ -34,8 +34,11 @@ public class IFELSE {
          else if (promedio >= 7 && promedio <9 ) { // ||-> SIGNIFICA "o"
             System.out.println("NOTABLE, tu nota es " + promedio);
         }
-        else if (promedio >= 9) { // ||-> SIGNIFICA "o" , & significa "y"
+        else if (promedio >= 9 && promedio <= 10) { // ||-> SIGNIFICA "o" , & significa "y"
             System.out.println("SOBRESALIENTE, tu nota es " + promedio);
+        }
+        else {
+            System.out.println("ERROR EN NOTAS"); //else si no se cumple ninguna d elas anteriores
         }
     }
     
