@@ -24,7 +24,7 @@ public class IFELSE {
         if(promedio < 5) {
             System.out.println("INSUFICIENTE, tu nota es " + promedio);
             
-        } // else if se usa para sehuir metiendo condiciones caudno el if primero no se ha completado
+        } // else if se usa para seguir metiendo condiciones cuando el if primero no se ha completado
         else if (promedio >= 5 && promedio <6) { // un = es asignar y == es realizar comprobación
             System.out.println("SUFICIENTE, tu nota es " + promedio);
         }
@@ -40,3 +40,4 @@ public class IFELSE {
     }
     
 }
+// El else es lo que quieres que pase cuando el if no se cumple mientras que el else if sirve para seguir metiendo condiciones a los datos referidos
